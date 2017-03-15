@@ -10,4 +10,4 @@ puts "----------"
 # Your code goes here ...
 puts Store.sum(:annual_revenue)
 puts Store.sum(:annual_revenue)/ Store.count
-p Store.where("annual_revenue > 1000000").size
+Store.where("annual_revenue > 1000000").size
